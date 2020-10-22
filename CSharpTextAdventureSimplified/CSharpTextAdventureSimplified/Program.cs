@@ -75,7 +75,7 @@ namespace CSharpTextAdventureSimplified
         {
             string userChoice1;
             bool doorStanding = true;
-            string[] tools = { "hammer", "sledgehammer", "gun", "axe", "fireaxe", "foot", "kick", "punch", "headbutt", "chainsaw", "karate", "sword", "battleaxe", "ram", "battering ram", "fire extinguisher", "hydraulic jack", "stand", "jump kick", "ninja", "karate chop", "crowbar", "c4", "lever", "bomb"};
+            string[] tools = { "hammer", "sledgehammer", "gun", "axe", "fireaxe", "foot", "kick", "punch", "headbutt", "chainsaw", "karate", "sword", "battleaxe", "ram", "battering ram", "fire extinguisher", "hydraulic jack", "stand", "jump kick", "ninja", "karate chop", "crowbar", "c4", "lever", "bomb", "me", "bat", "baseball bat"};
             Console.WriteLine("Would you like to try and break down the door?");
             userChoice1 = (Console.ReadLine()).ToLower();
             if (userChoice1 == "yes")
